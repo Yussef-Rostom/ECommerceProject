@@ -1,14 +1,11 @@
 package ecommerce.product;
 import ecommerce.cart.Cart;
 import ecommerce.customer.Customer;
-import ecommerce.product.Expirable;
-import ecommerce.product.Product;
-import ecommerce.product.Shippable;
 import java.util.ArrayList;
 import java.util.Map;
 
 public class CheckoutService {
-    private double costPerKg;
+    private final double costPerKg;
 
     public CheckoutService(double costPerKg) {
         this.costPerKg = costPerKg;

@@ -1,5 +1,4 @@
 package ecommerce.product;
-import java.util.ArrayList;
 
 public class ProductFactory {
     public static Product createProduct(String name, double price, int quantity){

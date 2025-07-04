@@ -1,7 +1,7 @@
 package ecommerce.customer;
 
 public class Customer {
-    private final String name;
+    final String name;
     private double balance;
 
     public Customer(String name, double balance) {
